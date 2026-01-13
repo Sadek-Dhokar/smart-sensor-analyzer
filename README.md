@@ -2,18 +2,19 @@
 
 A Python-based simulation and analysis toolkit for industrial sensor data. This project generates synthetic readings for temperature, humidity, and vibration, performs statistical analysis, and provides visual insights—mimicking a foundational pipeline for predictive maintenance systems.
 
-**Author:** Sadek Dhokar | Industrial Computer Engineering (GII) Student | ENET'Com, University of Sfax  
+**Author:** Sadek Dhokar | Industrial Computer Engineering (GII) Student | National School of Electronics and Telecommunications of Sfax (ENET'Com), University of Sfax
 **Tech Stack:** Python, Pandas, Matplotlib
 
 ---
 
 ### 📁 Project Structure
-smart-sensor-analyzer/
-├── sensor_simulator.py # Generates synthetic sensor data (CSV)
-├── data_analyzer.py # Performs statistical analysis & creates plots
-├── simple_dashboard.py # Displays a console-based summary dashboard
-├── requirements.txt # Python dependencies
-└── README.md # This file
+
+The project consists of the following main files:
+- **`sensor_simulator.py`** - Generates synthetic sensor data and saves it to a CSV file.
+- **`data_analyzer.py`** - Loads the data, performs statistical analysis, and creates visualizations.
+- **`simple_dashboard.py`** - Displays a console-based summary dashboard with key metrics.
+- **`requirements.txt`** - Lists the Python dependencies (Pandas, Matplotlib).
+- **`README.md`** - This documentation file.
 
 ### 🚀 Getting Started
 
