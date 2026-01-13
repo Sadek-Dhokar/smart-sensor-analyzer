@@ -18,11 +18,11 @@ smart-sensor-analyzer/
   cd smart-sensor-analyzer
   pip install -r requirements.txt
 2.Run the Simulation & Analysis Pipeline
-  # 1. Generate synthetic sensor data
+  a. Generate synthetic sensor data
   python sensor_simulator.py
-  # 2. Analyze data and generate plots
+  b. Analyze data and generate plots
   python data_analyzer.py
-  # 3. View the console dashboard
+  c. View the console dashboard
   python simple_dashboard.py
 
 🔍 Key Features & Implementation
